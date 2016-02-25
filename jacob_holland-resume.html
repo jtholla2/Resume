@@ -21,6 +21,31 @@
            opacity:0.75
         }
 
+        .btn.btn-default {
+            background:0 0;
+            position:relative;
+            color:#000000;
+            font-size:1em;
+            text-transform:uppercase;
+            font-weight:600;
+            text-align:center;
+            padding:6px 13px;
+            cursor:pointer;
+            border:1px solid #4cddf3;
+            border-radius:0;
+            letter-spacing:2px;
+            border-color:#000000;
+            -webkit-transition:all .1s ease-in-out;
+            -moz-transition:all .1s ease-in-out;
+            -o-transition:all .1s ease-in-out;
+            transition:all .1s ease-in-out
+        }
+        .btn.btn-default:active, .btn.btn-default:hover {
+            background:#272727;
+            border-color:#fff;
+            color:#fff;
+        }
+
         h4{
             margin-top:10px;
             margin-bottom:1px;
@@ -41,10 +66,10 @@
         hr {
             border-top: 0px solid black;
             height: 1px;
-            background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-            background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-            background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-            background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+            background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
+            background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0));
             clear: both;
             margin: 0 0 0px;
         }
@@ -88,20 +113,19 @@
     <div class="container">
         <div class="row">
             <h3 style="text-align:left;display:inline;">JACOB HOLLAND</h3>
-            <button style="display:inline;" type="button" class="btn btn-primary pull-right" onclick="window.print();">Print</button>
+            <button style="display:inline;" type="button" class="btn btn-default pull-right" onclick="window.print();">Print</button>
         </div>
         <div class="row">
             <hr />
         </div>
         <div class="row" id="information">
-            
-                <i class="fa fa-home"></i>106 E Daniel St APT 20 Champaign, IL 61820
+                <i class="fa fa-home"></i>2003 Moreland Blvd Unit 204 Champaign, IL 61820
                 <span class="space"></span>
-                <i class="fa fa-phone"></i><a href="tel:18159930825">(815) 993-0825</a>
+                <i class="fa fa-phone"></i><a href="tel:12174197484">(217) 419-7484</a>
                 <span class="space"></span>
-                <i class="fa fa-envelope-o"></i><a href="mailto:jtholla2@illinois.edu">jtholla2@illinois.edu</a>    
+                <i class="fa fa-envelope-o"></i><a href="mailto:jakeholland@me.com">jakeholland@me.com</a>
                 <span class="space"></span>
-                <i class="fa fa-globe"></i><a href="jacobholland.net">jacobholland.net</a>   
+                <i class="fa fa-globe"></i><a target="_blank" href="http://www.jacobholland.net">jacobholland.net</a>
         </div>
 
         <!--EDUCATION -->
@@ -152,25 +176,40 @@
             <span style="font-weight: bold; float: left;">College of Education-User Services</span><span style="float: right;">Champaign, IL</span>
         </div>
         <div class="row">
-            <span style="font-style:italic; float: left;">Lead Technical Consultant</span><span style="float: right;">01/13 - Present</span>
+            <span style="font-style:italic; float: left;">Lead Technical Consultant</span><span style="float: right;">01/13 - 06-15</span>
         </div>
         <div class="row">
             <ul class="duties">
                 <li>Analyze faculty and staff's technical issues. Educate and communicate daily with dozens about various problems. Administrate the department's Macintosh server and am the main point of contact for online class support. Also develop new college digital signage features.</li>
             </ul>
         </div>
-        <!-- GROWMARK -->
+
+        <!-- GROWMARK Internship-->
         <div class="row">
             <span style="font-weight: bold; float: left;">GROWMARK</span><span style="float: right;">Bloomington, IL</span>
         </div>
         <div class="row">
-            <span style="font-style:italic; float: left;">IT/IS Intern</span><span style="float: right;">05/19 - 08/14</span>
+            <span style="font-style:italic; float: left;">IT/IS Intern</span><span style="float: right;">05/14 - 08/14</span>
         </div>
         <div class="row">
             <ul class="duties">
                 <li>Programmed, designed, and tested software using VB.Net along with various other web development tools. Co-managed an external project.</li>
             </ul>
         </div>
+
+        <!-- GROWMARK/STL-->
+        <div class="row">
+            <span style="font-weight: bold; float: left;">STL Office Solutions</span><span style="float: right;">Bloomington, IL</span>
+        </div>
+        <div class="row">
+            <span style="font-style:italic; float: left;">Mobile Software Developer</span><span style="float: right;">06/15 - Present</span>
+        </div>
+        <div class="row">
+            <ul class="duties">
+                <li>I currently work for GROWMARK, Inc. contracted though STL Office Solutions. I work as a mobile software developer and also do a lot of web development and API development. One major product was a medium-large scale mapping website with a syncing engine to a data collection mobile appication.</li>
+            </ul>
+        </div>
+
         <div class="row">
             <h4 style="text-align:left; font-weight: bold;">Technical Skills</h4>
         </div>
@@ -181,16 +220,16 @@
             <span><strong>Languages: </strong>Javascript, C++, Visual Basic, SQL, Java, Objective-C, German</span>
         </div>
         <div class="row">
-            <span><strong>Libraries: </strong>JQuery, Knockout.JS, Sammy.JS, Moment.JS, and more</span>
+            <span><strong>Libraries: </strong>JQuery, Knockout.JS, Chart.JS, Moment.JS, and more</span>
         </div>
         <div class="row">
-            <span><strong>Development Tools: </strong>Visual Studio, X-Code, Eclipse, Sublime Text, Oracle Developer</span>
+            <span><strong>Development Tools: </strong>Visual Studio, X-Code, Eclipse, Atom</span>
         </div>
         <div class="row">
-            <span><strong>OS: </strong>Windows, UNIX (Mac OSX)</span>
+            <span><strong>OS: </strong>Windows, Mac OSX, iOS, Android</span>
         </div>
         <div class="row">
-            <span><strong>Other: </strong>Welding, Microcontrollers, Electrical systems, 3D Printing, Photoshop, Microsoft Office</span>
+            <span><strong>Other: </strong>Welding, Microcontrollers, Illustrator, Premiere, 3D Printing, Photoshop, Microsoft Office</span>
         </div>
         <div class="row">
             <h4 style="text-align:left; font-weight: bold;">Activities & Leadership</h4>
@@ -208,7 +247,7 @@
         <div class="row">
             <ul class="duties">
                 <li>Founded this club in the summer of 2013 to share my love of grilling with the University of Illinois student body</li>
-                <li>Plan events such as grill-outs and instructional meetings</li>
+                <li>Planed events such as grill-outs and instructional meetings</li>
             </ul>
         </div>
         <!-- Blockhead -->
@@ -220,8 +259,8 @@
         </div>
         <div class="row">
             <ul class="duties">
-                <li>Provide the behind-the-scenes work that goes into running the largest, student led student section in the nation</li>
-                <li>Create and promote a safe, but cheerful student section during each home game</li>
+                <li>Provided the behind-the-scenes work that goes into running the largest, student led student section in the nation</li>
+                <li>Created and promoted a safe, but cheerful student section during each home game</li>
             </ul>
         </div>
     </div>
